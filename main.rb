@@ -1,3 +1,7 @@
-#val = {name: "Cody", email: "tim@tim.com", password: ('a'..'z').to_a.sample(16).join}
+class String
+  def shuffle
+    split('').shuffle.join
+  end
+end
 
-p ({ "a" => 100, "b" => 200 }).merge({ "b" => 300 })
+p "aardvark".shuffle
