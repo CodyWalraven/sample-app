@@ -18,12 +18,12 @@ gem 'jbuilder',      '2.7.0'
 
 group :development, :test do
   gem 'sqlite3', git: "https://github.com/larskanis/sqlite3-ruby", branch: "add-gemspec"
-  gem 'byebug',  '9.0.6', platform: :mri
+  gem 'byebug',  '9.0.6', platform: [:mri, :mingw, :x64_mingw]
 end
 
 group :development do
   gem 'web-console',           '3.5.1'
-  gem 'listen',                '3.1.5'
+  gem 'listen',                '3.1.5' 
   gem 'spring',                '2.0.2'
   gem 'spring-watcher-listen', '2.0.1'
 end

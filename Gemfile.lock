@@ -58,6 +58,7 @@ GEM
     bootstrap-will_paginate (1.0.0)
       will_paginate
     builder (3.2.3)
+    byebug (9.0.6)
     carrierwave (1.2.2)
       activemodel (>= 4.0.0)
       activesupport (>= 4.0.0)
@@ -76,7 +77,7 @@ GEM
       unf (>= 0.0.5, < 1.0.0)
     dry-inflector (0.1.2)
     erubi (1.8.0)
-    excon (0.63.0)
+    excon (0.64.0)
     execjs (2.7.0)
     faker (1.7.3)
       i18n (~> 0.5)
@@ -293,7 +294,7 @@ GEM
     nenv (0.3.0)
     netrc (0.11.0)
     nio4r (2.3.1)
-    nokogiri (1.10.2-x64-mingw32)
+    nokogiri (1.10.3-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     notiffany (0.1.1)
       nenv (~> 0.1)
@@ -343,7 +344,7 @@ GEM
     rbovirt (0.1.7)
       nokogiri
       rest-client (> 1.7.0)
-    rbvmomi (2.1.0)
+    rbvmomi (2.1.2)
       builder (~> 3.0)
       json (>= 1.8)
       nokogiri (~> 1.5)
@@ -396,7 +397,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unf (0.1.4)
       unf_ext
-    unf_ext (0.0.7.2-x64-mingw32)
+    unf_ext (0.0.7.6)
     wdm (0.1.1)
     web-console (3.5.1)
       actionview (>= 5.0)
