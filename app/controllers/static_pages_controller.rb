@@ -6,7 +6,7 @@ class StaticPagesController < ApplicationController
   end
 
   def about
-    
+    @dog = "dog"
   end
 
   def contact
